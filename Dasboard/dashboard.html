@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalistic Features Interface</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Features</h2>
+          <a href="CropManage/CropManagement.html">  <button class="feature-button" onclick="showContent('crop-management')">Crop Management</button></a>
+            <button class="feature-button" onclick="showContent('soil-health')">Soil Health</button>
+            <button class="feature-button" onclick="showContent('water-management')">Water Management</button>
+            <button class="feature-button" onclick="showContent('schemes-subsidies')">Schemes and Subsidies</button>
+            <button class="feature-button" onclick="showContent('market-prices')">Market Prices</button>
+            <button class="feature-button" onclick="showContent('weather-forecasting')">Weather Forecasting</button>
+            <button class="feature-button" onclick="showContent('financial-tracking')">Financial Tracking</button>
+            <button class="feature-button" onclick="showContent('pests-diseases')">Pest and Diseases</button>
+            <button class="feature-button" onclick="showContent('education')">Education</button>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1 id="content-title">Welcome</h1>
+            <p id="content-description">Select a feature from the left to see details.</p>
+
+            <!-- Schemes and Subsidies Section -->
+            <div id="schemes-subsidies" class="content hidden">
+                <h2>Schemes and Subsidies</h2>
+                <div class="grid">
+                    <div class="box">
+                        <h3>Krishi Sinchai Yojana</h3>
+                        <p>Focuses on improving irrigation systems by providing financial assistance. 
+                            <a href="https://pmksy.gov.in/" target="_blank">Link</a>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <h3>Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)</h3>
+                        <p>Offers ₹6,000 per year to eligible farmers. 
+                            <a href="https://pmkisan.gov.in/" target="_blank">Link</a>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <h3>Fasal Bima Yojana</h3>
+                        <p>Provides crop insurance to protect against losses. 
+                            <a href="https://pmfby.gov.in/" target="_blank">Link</a>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <h3>Uttar Pradesh State Crop Insurance Scheme</h3>
+                        <p>Compensates farmers for losses due to weather. 
+                            <a href="#" target="_blank">Link</a>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <h3>MGNREGA</h3>
+                        <p>Provides wage employment for rural families. 
+                            <a href="https://nrega.nic.in/" target="_blank">Link</a>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <h3>Mukhyamantri Krishi Vikas Yojana</h3>
+                        <p>Promotes agricultural growth. 
+                            <a href="#" target="_blank">Link</a>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <h3>Swavalamban Yojana</h3>
+                        <p>Creates self-employment for farmers. 
+                            <a href="#" target="_blank">Link</a>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <h3>Kamdhenu Yojna</h3>
+                        <p>Supports livestock farming. 
+                            <a href="#" target="_blank">Link</a>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <h3>DELP-LED Distribution Scheme</h3>
+                        <p>Distributes energy-efficient LED lights. 
+                            <a href="#" target="_blank">Link</a>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <h3>Gramin Bhandaran Yojana</h3>
+                        <p>Provides subsidies for storage capacity. 
+                            <a href="#" target="_blank">Link</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>

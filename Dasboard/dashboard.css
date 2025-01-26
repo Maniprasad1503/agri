@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 20%;
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin: 0 0 20px;
+}
+
+.feature-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature-button:hover {
+    background-color: #45a049;
+}
+
+/* Main Content Styles */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.box {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    margin: 0 0 10px;
+}
+
+.box p {
+    margin: 0;
+}
+
+.box a {
+    color: #388e3c;
+    text-decoration: none;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
